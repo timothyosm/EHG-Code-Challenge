@@ -3,15 +3,15 @@ import { React, useEffect, useState } from "react";
 import Performance from "../Components/Performance";
 
 function Home() {
-  let red;
-  let green;
-  let blue;
-  let rgbArray = [{ red: 0, green: 0, blue: 0 }];
-
   const [performanceMs, setPerformance] = useState(0);
   const [colorCounter, setColorCounter] = useState(0);
 
   useEffect(() => {
+    let red;
+    let green;
+    let blue;
+    let rgbArray = [{ red: 0, green: 0, blue: 0 }];
+
     //Using formula from below
     //https://stackoverflow.com/questions/596216/formula-to-determine-perceived-brightness-of-rgb-color
 
