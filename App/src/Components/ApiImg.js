@@ -1,16 +1,23 @@
 import axios from "axios";
-import { React } from "react";
+import { React, useState, useEffect } from "react";
+import { Spin } from "antd";
 
 function ApiImg() {
-  let image;
-  axios
-    .get("http://localhost:3000")
-    .then((Response) => {
-      image = Response;
-    })
-    .catch((error) => console.log(error));
+  const [image, setImage] = useState(null);
 
-  return <img src={image} alt="generated"></img>;
+  axios
+    .get("http://localhost:3000/image", { responseType: "arraybuffer" })
+    .then((response) => {
+      let blob = new Blob([response.data], {
+        type: response.headers["content-type"],
+      });
+      let image = URL.createObjectURL(blob);
+      setImage(image);
+    });
+
+  return (
+    <div>{image ? <img src={image} alt="generated"></img> : <Spin />}</div>
+  );
 }
 
 export default ApiImg;

@@ -40,7 +40,7 @@ const sumColor = (rgb) => {
   return Math.pow(Ylum, 0.43) * 100;
 };
 
-rgbArray.sort((a, b) => sumColor(a) - sumColor(b)).reverse();
+rgbArray.sort((a, b) => sumColor(a) - sumColor(b));
 
 ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 let id = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
@@ -67,7 +67,7 @@ fs.writeFileSync("./image/32kcolors.png", buffer);
 
 ctx.putImageData(id, 0, 0);
 
-app.get("/", (res) => {
+app.get("/image", (req, res) => {
   res.sendFile(__dirname + "/image/32kcolors.png");
 });
 
