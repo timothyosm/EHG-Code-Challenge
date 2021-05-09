@@ -1,10 +1,15 @@
 <h1>How to Run</h1>
 
 <code> cd .\Server\ </code>
+
 <code> NPM i </code>
+
 <code> node index.js </code>
+
 <code> cd .\App\ </code>
+
 <code> NPM i </code>
+
 <code> NPM start </code>
 
 <h1>Coding challenge</h1>
