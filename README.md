@@ -1,13 +1,11 @@
 <h1>How to Run</h1>
 
-<code> 
-> cd .\Server\
-> NPM i
-> node index.js
-> cd .\App\
-> NPM i
-> NPM start
-</code>
+<code> cd .\Server\ </code>
+<code> NPM i </code>
+<code> node index.js </code>
+<code> cd .\App\ </code>
+<code> NPM i </code>
+<code> NPM start </code>
 
 <h1>Coding challenge</h1>
 
