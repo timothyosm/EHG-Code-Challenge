@@ -1,10 +1,15 @@
 <h1>How to Run</h1>
 
 <code> cd .\Server\ </code>
+
 <code> NPM i </code>
+
 <code> node index.js </code>
+
 <code> cd .\App\ </code>
+
 <code> NPM i </code>
+
 <code> NPM start </code>
 
 <h1>Coding challenge</h1>
@@ -18,8 +23,6 @@ You need to write a program which will produce an image in which each colour occ
 The result should be aesthetically pleasing (or at least interesting) and should not use any existing graphics or other files. Your submission will be evaluated in terms of good development practices followed, cleanliness of code, the elegance of the algorithm you use, and the originality of your approach.
 
 We’re also looking to see that your app doesn’t greatly impact the browser performance.
-
-You may write this program preferably in Reactjs & Nodejs for use on a web browser which displays its results on-screen. Feel free to submit in reply to james.overell@educationhorizons.com via zip file or link to github etc. If you could submit this as soon as convenient that would positively reflect on you in this application.
 
 Here are some frequently-asked questions:
 
