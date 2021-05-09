@@ -24,8 +24,6 @@ The result should be aesthetically pleasing (or at least interesting) and should
 
 We’re also looking to see that your app doesn’t greatly impact the browser performance.
 
-You may write this program preferably in Reactjs & Nodejs for use on a web browser which displays its results on-screen. Feel free to submit in reply to james.overell@educationhorizons.com via zip file or link to github etc. If you could submit this as soon as convenient that would positively reflect on you in this application.
-
 Here are some frequently-asked questions:
 
 Are third-party open source libraries such as React, Angular, etc. allowed in my submission?
