@@ -9,7 +9,7 @@ function ApiImg() {
 
   const fetch = () => {
     axios
-      .get("http://localhost:3000/image", { responseType: "arraybuffer" })
+      .get("http://localhost:3001/image", { responseType: "arraybuffer" })
       .then((response) => {
         let blob = new Blob([response.data], {
           type: response.headers["content-type"],
